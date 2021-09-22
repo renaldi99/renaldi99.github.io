@@ -54,7 +54,7 @@ body {
 }
 
 .hero .right-side {
-  min-width: 400px;
+  min-width: 100px;
 }
 
 .hero .right-side img {
