@@ -1,0 +1,50 @@
+@import "./color";
+
+.about-me {
+  padding: 60px 0 60px 0;
+
+  .my-image {
+    min-width: 400px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .my-description {
+    h3 {
+      color: $second_color;
+      font-size: 24px;
+      font-weight: 500;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 46px;
+      font-weight: 600;
+      margin-bottom: 12px;
+
+      span {
+        color: $main_color;
+      }
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    .btn-about-me {
+      margin-top: 44px;
+      .btn-cv {
+        background-color: $main_color;
+        color: #fff;
+      }
+
+      .btn-hire {
+        background-color: #f9f9f9;
+        color: $main_color;
+        border: 1px solid $main_color;
+      }
+    }
+  }
+}

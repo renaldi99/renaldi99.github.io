@@ -1,0 +1,30 @@
+$dot-color: #b9bdc0;
+$bg-color: #f9f9f9;
+// Dimensions
+$dot-size: 1px;
+$dot-space: 22px;
+
+body {
+  background: linear-gradient(
+        90deg,
+        $bg-color ($dot-space - $dot-size),
+        transparent 1%
+      )
+      center,
+    linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+    $dot-color;
+  background-size: $dot-space $dot-space;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+//call scss
+@import "./color";
+// navbar
+@import "./navbar";
+// header
+@import "./header";
+// about me
+@import "./about-me";
+// responsive mobile
+@import "./responsive";

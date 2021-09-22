@@ -1,0 +1,36 @@
+@media (max-width: 575px) {
+  .hero {
+    padding: 150px 0 50px 0;
+
+    .right-side {
+      margin-top: 40px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .about-me {
+    padding: 50px 0 50px 0;
+    .my-image {
+      img {
+        display: none;
+      }
+    }
+
+    .my-description {
+    }
+  }
+}
+
+// Responsive device 575px -  767px
+@media (min-width: 575px) and (max-width: 767px) {
+  .hero {
+    .right-side {
+      margin-top: 40px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

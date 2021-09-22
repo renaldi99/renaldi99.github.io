@@ -1,0 +1,16 @@
+@import "./color";
+
+.navbar-brand {
+  font-weight: 500;
+}
+
+.btn-contact-me {
+  background-color: $main_color;
+  color: #fff;
+  border-radius: 30px;
+
+  &:hover {
+    background-color: #bfc2ff;
+    color: #fff;
+  }
+}

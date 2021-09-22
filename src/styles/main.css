@@ -1,0 +1,135 @@
+body {
+  background: linear-gradient(90deg, #f9f9f9 21px, transparent 1%) center, linear-gradient(#f9f9f9 21px, transparent 1%) center, #b9bdc0;
+  background-size: 22px 22px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.navbar-brand {
+  font-weight: 500;
+}
+
+.btn-contact-me {
+  background-color: #686de0;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.btn-contact-me:hover {
+  background-color: #bfc2ff;
+  color: #fff;
+}
+
+.hero {
+  margin-top: -90px;
+  padding: 190px 0 60px 0;
+}
+
+.hero .left-side h3 {
+  color: #20bf6b;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.hero .left-side h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero .left-side h1 span {
+  color: #686de0;
+}
+
+.hero .left-side p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.hero .left-side .btn-email-me {
+  background-color: #686de0;
+  color: #fff;
+}
+
+.hero .right-side img {
+  min-width: 400px;
+}
+
+.about-me {
+  padding: 60px 0 60px 0;
+}
+
+.about-me .my-image {
+  min-width: 400px;
+}
+
+.about-me .my-image img {
+  width: 100%;
+}
+
+.about-me .my-description h3 {
+  color: #20bf6b;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.about-me .my-description h1 {
+  font-size: 46px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.about-me .my-description h1 span {
+  color: #686de0;
+}
+
+.about-me .my-description p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.about-me .my-description .btn-about-me {
+  margin-top: 44px;
+}
+
+.about-me .my-description .btn-about-me .btn-cv {
+  background-color: #686de0;
+  color: #fff;
+}
+
+.about-me .my-description .btn-about-me .btn-hire {
+  background-color: #f9f9f9;
+  color: #686de0;
+  border: 1px solid #686de0;
+}
+
+@media (max-width: 575px) {
+  .hero {
+    padding: 150px 0 50px 0;
+  }
+  .hero .right-side {
+    margin-top: 40px;
+  }
+  .hero .right-side img {
+    width: 100%;
+  }
+  .about-me {
+    padding: 50px 0 50px 0;
+  }
+  .about-me .my-image img {
+    display: none;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .hero .right-side {
+    margin-top: 40px;
+  }
+  .hero .right-side img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
