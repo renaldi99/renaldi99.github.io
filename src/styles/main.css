@@ -81,7 +81,7 @@ body {
 }
 
 .about-me .my-description h1 {
-  font-size: 46px;
+  font-size: 36px;
   font-weight: 600;
   margin-bottom: 12px;
 }
@@ -113,6 +113,9 @@ body {
 @media (max-width: 575px) {
   .hero {
     padding: 150px 0 50px 0;
+  }
+  .hero .left-side h1 {
+    font-size: 36px;
   }
   .hero .right-side {
     margin-top: 40px;
