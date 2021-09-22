@@ -53,8 +53,12 @@ body {
   color: #fff;
 }
 
+.hero .right-side {
+  min-width: 400px;
+}
+
 .hero .right-side img {
-  min-width: 300px;
+  width: 100%;
 }
 
 .about-me {

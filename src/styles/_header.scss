@@ -35,8 +35,9 @@
   }
 
   .right-side {
+    min-width: 400px;
     img {
-      min-width: 300px;
+      width: 100%;
     }
   }
 }
