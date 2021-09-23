@@ -36,8 +36,31 @@
 
   .right-side {
     min-width: 100px;
+
     img {
       width: 100%;
     }
   }
+}
+
+[data-gradient2] {
+  position: relative;
+}
+
+[data-gradient2]::after {
+  content: "";
+  position: absolute;
+  top: 190px;
+  left: 370px;
+  width: 271px;
+  height: 261px;
+  border-radius: 50%;
+  z-index: -1;
+
+  background: linear-gradient(
+    40.82deg,
+    rgba(80, 86, 233, 0.5) -16.4%,
+    rgba(83, 90, 243, 0) 141.01%
+  );
+  filter: blur(70px);
 }

@@ -1,5 +1,27 @@
 @import "./color";
 
+[data-gradient1] {
+  position: relative;
+}
+
+[data-gradient1]::after {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: -80px;
+  top: -80px;
+  z-index: -1;
+  border: 50%;
+
+  background: linear-gradient(
+    40.82deg,
+    #20bf6b -16.4%,
+    rgba(32, 191, 107, 0) 141.01%
+  );
+  filter: blur(100px);
+}
+
 .navbar-brand {
   font-weight: 500;
 }
