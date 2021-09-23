@@ -51,6 +51,11 @@
         background-color: #f9f9f9;
         color: $main_color;
         border: 1px solid $main_color;
+
+        &:hover {
+          background-color: $main_color;
+          color: #fff;
+        }
       }
     }
   }
