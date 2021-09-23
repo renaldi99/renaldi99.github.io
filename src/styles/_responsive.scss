@@ -1,3 +1,5 @@
+@import "./color";
+
 @media (max-width: 575px) {
   [data-gradient1] {
     position: relative;
@@ -28,10 +30,10 @@
   [data-gradient2]::after {
     content: "";
     position: absolute;
-    top: 120px;
-    left: 320px;
-    width: 120px;
-    height: 120px;
+    top: 40px;
+    left: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     z-index: -1;
 
@@ -40,7 +42,29 @@
       rgba(80, 86, 233, 0.5) -16.4%,
       rgba(83, 90, 243, 0) 141.01%
     );
-    filter: blur(50px);
+    filter: blur(70px);
+  }
+
+  [data-gradient3] {
+    position: relative;
+  }
+
+  [data-gradient3]::after {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    z-index: -1;
+
+    background: linear-gradient(
+      40.82deg,
+      rgba(80, 86, 233, 0.5) -16.4%,
+      rgba(83, 90, 243, 0) 141.01%
+    );
+    filter: blur(70px);
   }
 
   .hero {
@@ -68,8 +92,87 @@
         display: none;
       }
     }
+  }
 
-    .my-description {
+  .project-title {
+    padding: 50px 0 0 0;
+  }
+
+  .project-content {
+    .project-1 {
+      .image-project {
+        min-width: 300px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .description-project {
+        strong::after {
+          content: "";
+          display: inline-block;
+          position: relative;
+          top: -5px;
+          margin-left: 0.5rem;
+          margin-right: 0.3rem;
+          width: 20px;
+          height: 1px;
+          background-color: #5f6470;
+        }
+      }
+    }
+
+    .project-2 {
+      margin-top: 50px;
+      display: flex;
+      .description-project {
+        order: 999;
+        strong::after {
+          content: "";
+          display: inline-block;
+          position: relative;
+          top: -5px;
+          margin-left: 0.5rem;
+          margin-right: 0.3rem;
+          width: 20px;
+          height: 1px;
+          background-color: #5f6470;
+        }
+      }
+
+      .image-project {
+        min-width: 300px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .project-3 {
+      margin-top: 50px;
+      .image-project {
+        min-width: 300px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .description-project {
+        strong::after {
+          content: "";
+          display: inline-block;
+          position: relative;
+          top: -5px;
+          margin-left: 0.5rem;
+          margin-right: 0.3rem;
+          width: 20px;
+          height: 1px;
+          background-color: #5f6470;
+        }
+      }
     }
   }
 }

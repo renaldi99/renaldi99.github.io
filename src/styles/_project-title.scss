@@ -1,0 +1,40 @@
+@import "./color";
+
+.project-title {
+  padding: 60px 0 0 0;
+
+  h3 {
+    color: $second_color;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+}
+
+[data-gradient3] {
+  position: relative;
+}
+
+[data-gradient3]::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -60px;
+  width: 271px;
+  height: 261px;
+  border-radius: 50%;
+  z-index: -1;
+
+  background: linear-gradient(
+    40.82deg,
+    rgba(80, 86, 233, 0.5) -16.4%,
+    rgba(83, 90, 243, 0) 141.01%
+  );
+  filter: blur(70px);
+}
